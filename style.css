@@ -1,0 +1,94 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+/* Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-size: 3.5rem;
+  padding: 1.5rem;
+  height: 10vh;
+}
+
+section h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+}
+
+section p {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1rem;
+}
+
+.section-container {
+  background-color: steelblue;
+  padding: 2rem;
+}
+
+.blog {
+  background-color: aliceblue;
+  height: 30vh;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.about {
+  background-color: beige;
+  height: 30vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact {
+  background-color: rgb(73, 172, 170);
+  height: 30vh;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  height: max(3.7rem, 10vh);
+  background-color: #1e1e1e;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.1rem;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    font-size: 1rem;
+  }
+}
