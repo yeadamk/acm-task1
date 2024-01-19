@@ -35,7 +35,7 @@ body {
   text-align: center;
   font-size: 3.5rem;
   padding: 1.5rem;
-  height: 10vh;
+  min-height: 10vh;
 }
 
 section h2 {
@@ -56,7 +56,7 @@ section p {
 
 .blog {
   background-color: aliceblue;
-  height: 30vh;
+  min-height: 30vh;
   padding: 2rem;
   text-align: center;
 
@@ -64,14 +64,14 @@ section p {
 
 .about {
   background-color: beige;
-  height: 30vh;
+  min-height: 30vh;
   padding: 2rem;
   text-align: center;
 }
 
 .contact {
   background-color: rgb(73, 172, 170);
-  height: 30vh;
+  min-height: 30vh;
   padding: 2rem;
   text-align: center;
 }
